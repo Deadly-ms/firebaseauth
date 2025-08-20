@@ -1,3 +1,14 @@
+REACT + FIREBASE
+
+firebase auth for user Register,login with modern UI
+   > user once login then no need to login again and again
+   > clean user navigation ( Home,Profile,Logout) with attractive UI
+
+#react   #fireBase   #modern design(frontend)
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
