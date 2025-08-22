@@ -1,6 +1,9 @@
 // File: src/components/Carousel.jsx
 import React, { useEffect, useState, useRef } from "react";
 import "/src/App.css"; 
+import  secpic  from '../assets/cyber2.0.1-re.png'
+import  mainpic  from '../assets/cyber-pro1.png'
+import  thrpic  from '../assets/cyber2.0-re.png'
 
 // import "./Carousel.css";
 
@@ -9,9 +12,12 @@ import "/src/App.css";
 
 export default function Carousel({ interval = 3000 }) {
   const images = [
-    "/src/assets/cyber2.0.1-re.png",
-    "/src/assets/cyber-pro1.0.png",
-    "/src/assets/cyber2.0-re.png",
+    secpic,
+    mainpic,
+    thrpic,
+    // "/src/assets/cyber2.0.1-re.png",
+    // "/src/assets/cyber-pro1.0.png",
+    // "/src/assets/cyber2.0-re.png",
     // add more paths if you like
   ];
 
