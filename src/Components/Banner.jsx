@@ -3,7 +3,7 @@ import React from "react";
 import "/src/App.css"; 
 import { Header } from "../Components/Header";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-
+import  mainpic  from '../assets/cyber-pro1.png'
 
 export function Banner() {
   return (
@@ -21,7 +21,7 @@ export function Banner() {
         <div className="headline">
           {/* <div className="kicker">Cyber of x</div> */}
           <div className="loop">
-            <img src="src/assets/cyber-pro1.png" alt="main-img" />
+            <img src={mainpic} alt="main-img" />
           </div>
           <h1>
             <span className="light">ME</span>
